@@ -1,0 +1,38 @@
+body{
+    background-color: darkcyan;
+}
+img{
+    max-width: 150px;
+    max-height: 100%;
+}
+#tituloMain{
+    size: 100px;
+    color: aliceblue;
+    padding: auto;
+    font-family: Arial;
+    margin: auto;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin: 10px;
+}
+.div-frutas{
+    font-family: Arial;
+    padding: 5px;
+    
+}
+.div-proteinas{
+    font-family: Arial;
+    padding: 5px;
+    
+}
+.div-carbohidratos{
+    font-family: Arial;
+    padding: 5px;
+    
+}
