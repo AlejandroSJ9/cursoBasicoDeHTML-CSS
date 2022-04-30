@@ -10,20 +10,26 @@
 <body>
     <main>
         <form action="">
-            <label for="inputNombre">
-                <span>Cual es tu nombre</span>
-                <input type="text" id="inputNombre">
+            <label for="nombre">
+                <span>Ingrese tu nombre</span>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
             </label>
 
-            <label for="inputEdad">
-                <span>Cual es tu edad</span>
-                <input type="number" id="inputEdad" >
+            <label for="edad">
+                <span>Ingresa tu edad</span>
+                <input type="number" id="edad" id="edad" autocomplete="bday" required>
             </label>
 
-            <label for="inputNacimiento">
-                <span>Cuando naciste</span>
-                <input type="date" id="inputNacimiento">
+            <label for="email">
+                <span>Ingrese tu email</span>
+                <input type="email" id="email" id="edad" autocomplete="email" required>
             </label>
+
+            <label for="contrasena">
+                <span>Ingrese tu contraseña</span>
+                <input type="password" id="contrasena" id="contrasena" autocomplete="current-password" required>
+            </label>
+            <input type="submit">
         </form>
     </main>
 </body>
